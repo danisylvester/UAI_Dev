@@ -1,0 +1,134 @@
+.bkg{
+    padding: 4rem 1rem;
+}
+#map-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+#map{
+    height: auto;
+    width: 100%;
+}
+.gold{
+    color: #736535;
+}
+#rightSide{
+    padding-top: 2rem;
+    text-align: center;
+}
+#rightSide h2{
+    color: #736535;
+    font-size: 40px;
+  font-family: "Goldman", cursive;
+}
+#rightSide h5{
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+#rightSide p{
+    display: inline;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.0045em;
+    color: #3f3f3f;
+    font-family: 'Inter', sans-serif;
+}
+#email{
+    color: #3f3f3f;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.0045em;
+    font-family: 'Inter', sans-serif;
+}
+.btn{
+    color: #3f3f3f;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.0045em;
+    font-family: 'Inter', sans-serif;
+}
+.learnMore{
+    margin-top: 2rem;
+    border: 2px solid #736535;
+    color: #736535;
+    display: inline-block;
+
+}
+.learnMore:hover{
+    background-color: #736535;
+    color: white;
+}
+.btn-wrapper{
+    text-align: center;
+}
+@media(min-width: 425px){
+    #map{
+        width: 375px;
+    }
+}
+@media(min-width: 768px){
+    .bkg{
+        padding: 4rem 3rem;
+    }
+    #rightSide{
+        text-align:left;
+        padding-top: 1rem;
+    }
+    #map{
+        width: 315px;
+    }
+    #map-wrapper{
+        padding: 0rem;
+        align-items: center;
+    }
+    #rightSide p{
+        font-size: 18px;
+    }
+    #email{
+        font-size: 18px;
+    }
+    .learnMore{
+        margin-top: 1rem;
+    }
+    .btn{
+        font-size: 14px;
+    }
+    .contact{
+        background-color: white;
+        text-align: center;
+        width: 100%;
+
+    }
+}
+@media(min-width:1024px){
+    .bkg{
+        padding: 5rem 3rem;
+    }
+    #map{
+        width: 350px;
+    }
+    #rightSide p{
+        font-size: 22px;
+    }
+    #email{
+        font-size: 22px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    .learnMore{
+        margin-top: 2.5rem;
+    }
+
+}
+@media(min-width: 1440px){
+
+    #map-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    #map{
+        width: 515px;
+    }
+}

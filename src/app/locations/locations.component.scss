@@ -1,0 +1,215 @@
+.bkg {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.616)),
+    url("/../assets/images/black-370118_1280.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 1rem;
+}
+#leftCol h2 {
+  color: white;
+  text-align: center;
+}
+.locHeader {
+  text-align: center;
+  color: #dcbb67;
+  margin: 1rem;
+  font-size: 30px;
+    line-height: 28px;
+    letter-spacing: 0.0045em;
+    font-family:"Goldman", cursive;
+    font-weight: 550;
+}
+.locImg {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#locationList {
+  display: none;
+}
+#menuTitle{
+  font-size: 40px;
+  font-family: "Goldman", cursive;
+    color: #dcbb67;
+}
+.locationSummary{
+  background-color: white;
+  font-size:1.3rem;
+  font-weight:100;
+  font-family: "Goldman",cursive;
+  text-align:center;
+  color: #736535;
+  margin: 4rem 1rem;
+}
+.locImg{
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+}
+.loc{
+  position: relative;
+}
+.menuText{
+  text-transform: uppercase;
+}
+.description{
+  text-align: center;
+  color: white;
+}
+.description h4{
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+}
+.location{
+  margin: 4rem 0rem;
+}
+.highlight{
+  color: #dcbb67 !important;
+  transition:0.5s;
+}
+/*Tablet View*/
+@media (min-width: 768px) {
+  .bkg {
+    padding: 4rem 1rem;
+  }
+  #leftCol {
+    position: sticky;
+    top: 15%;
+    margin: 0rem;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+    width: 35%;
+    float: left;
+    padding-top: 2rem;
+  }
+  #leftCol h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  #locationList {
+    display: flex;
+    flex-direction: column;
+  }
+  #locationList li {
+    padding: 0.5rem 0rem 1rem 0rem;
+  }
+  #locationList li a {
+    color: #eee;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.0045em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 550;
+  }
+  #locationList li a:hover
+  {
+    text-decoration: none;
+    color: #dcbb67;
+  }
+  #mainCol {
+    padding-top: 2rem;
+    width: 65%;
+    display: inline-block;
+  }
+  .location {
+    display: flex;
+    justify-content: center;
+    transform: translate(27px);
+  }
+  
+  #menuTitle{
+    font-size: 30px;
+  }
+  .locImg{
+    width: 400px;
+  }
+  .locHeader{
+    font-size: 32px;
+  }
+}
+/*Small Laptop View*/
+@media (min-width: 1024px) {
+  .bkg {
+    padding: 4rem 1.5rem 6rem 1.5rem;
+  }
+  #menuTitle{
+    font-size: 35px;
+  }
+  .locationSummary{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .locImg{
+    width: 525px;
+    padding: 1rem;
+  }
+  .description p{
+    font-size: 18px;
+  }
+  .locationSummary{
+    font-size: 28px;
+  }
+  .location{
+    transform: translate(45px);
+  }
+  #leftCol {
+    padding-left:2rem;
+    padding-right: 0rem;
+  }
+}
+/*Large Laptop View*/
+@media (min-width: 1400px) {
+  #leftCol {
+    width: 30%;
+    padding-left: 4rem;
+  }
+  .location{
+    transform: translate(25);
+  }
+  #mainCol {
+    width: 60%;
+  }
+  #leftCol{
+    width: 40%;
+  }
+  .locImg {
+    width: 650px;
+  }
+  .description h4{
+    font-size: 27px;
+   }
+  .description p{
+    font-size: 19px;
+  }
+  #menuTitle{
+    font-size: 40px;
+  }
+  #locationList li a{
+    font-size: 20px;
+  }
+}
+@media(min-width:1850px){
+  #leftCol {
+    padding-left: 6rem;
+  }
+  #locationList li{
+    margin-bottom: 0.75rem;
+  }
+  #menuTitle{
+    font-size: 52px;
+    padding-bottom: 1.5rem;
+  }
+  #locationList li a {
+    font-size: 20px;
+  }
+  .locImg {
+    width: 800px;
+  }
+  #locationList li a{
+    font-size: 22px;
+  }
+}
+

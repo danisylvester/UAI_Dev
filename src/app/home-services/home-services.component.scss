@@ -1,0 +1,190 @@
+.home-services {
+  width:95%;
+  letter-spacing: 2px;
+  padding-bottom: 2rem;
+}
+.locationText{
+  font-size:1.3rem;
+  font-weight:100;
+  font-family: "Goldman",cursive;
+  text-align:center;
+  color: #736535;
+  margin: 4rem 0rem;
+}
+.infoText{
+  font-weight:100;
+  font-family: "Goldman",cursive;
+  text-align:center;
+  color: #736535;
+  padding: 2.5rem 0rem; 
+  font-size:1.3rem;
+}
+.serve-margin {
+  margin-bottom: 0.5rem;
+  margin-top: 4rem;
+  color: #736535;
+  font-size: 40px;
+  font-family: "Goldman", cursive;
+}
+.card {
+  margin: 1rem;
+}
+.card-col {
+  margin-top: 0.5rem;
+  transition: margin 0.35s ease;
+}
+$font-size: 2rem;
+.card-title {
+  font-family: "Goldman", cursive;
+  color: #736535;
+  text-align: center;
+  margin: 1rem;
+  font-size: $font-size *0.7;
+  line-height: $font-size * 1.4;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.center-card-txt {
+  text-align: center;
+}
+hr {
+  width: 70%;
+  margin: 1rem auto;
+}
+.card-text {
+  margin-bottom: 1rem;
+  font-size: $font-size * 0.6;
+  line-height: $font-size;
+  letter-spacing: 0.0045em;
+  color: #3f3f3f;
+  font-weight: 550;
+  font-family: "Goldman", cursive;
+}
+.card-text li {
+  list-style: none;
+}
+.icon-wrap{
+  text-align: center;
+  padding: 1rem 0rem 0.5rem 0rem;
+}
+.emptyCol{
+  display: none;
+}
+.infoText{
+  opacity: 0;
+  transition:0.75s;
+}
+.fadeInText{
+  transition:0.75s;
+  opacity:1 !important;
+}
+@media(min-width:320px){
+  .card-text{
+    font-size: $font-size *0.7;
+  }
+  .card-title{
+    font-size: $font-size *0.8;
+
+  }
+}
+@media (min-width: 425px) {
+  .card-img-top {
+    width: 50%;
+  }
+}
+/*Medium-ish Services Home*/
+@media (min-width: 600px) {
+  .card {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+/*Tablet Services Home*/
+@media (min-width: 768px) {
+  .card {
+    margin: 2rem 5rem;
+  }
+  .card-text {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+  .infoText{
+    text-align: justify;
+  }
+}
+/*Large Services Home*/
+@media (min-width: 992px) {
+  .card {
+    margin: 1rem;
+  }
+  .card-title {
+    margin: 1rem 0rem;
+  }
+}
+@media(min-width: 1024px){
+  .emptyCol{
+    display: block;
+  }
+  .infoText{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0rem 0.75rem; 
+    font-size:1.35rem;
+  }
+  .locationText{
+    font-size: 1.5rem;
+  }
+  .card-text{
+    font-size: $font-size * 0.75;
+  }
+  .card-title{
+    font-size: $font-size;
+  }
+  .home-services{
+    padding-bottom: 6rem;
+    padding-top: 1rem;
+    width:90%;
+  }
+  #secondHR{
+    margin-top: 5rem;
+  }
+}
+
+/*Larger Projects*/
+@media (min-width: 1400px) {
+#gold-icon {
+  margin: auto;
+  display:block;
+  margin-top:2.1rem;
+}
+#oilgas-icon{
+  margin:auto;
+  display:block;
+  margin-top:3.5rem;
+}
+.home-services{
+  padding: 1rem 2rem 7rem 2rem;
+}
+.infoText{
+  padding: 0rem 1rem; 
+  font-size:1.5rem;
+}
+.locationText{
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.card-text{
+  font-size: $font-size * 0.7;
+}
+.serve-margin{
+  margin-top: 4.5rem;
+}
+.icon-wrap{
+  padding: 0rem;
+}
+#metalsRow{
+  padding-bottom: 2rem;
+}
+
+}

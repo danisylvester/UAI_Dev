@@ -1,0 +1,123 @@
+.bkg {
+  width: 100%;
+  padding: 0rem;
+  min-height: 100vh;
+}
+.heading {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0)),
+    url("/../assets/images/black-370118_1280.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #dcbb67;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Goldman", cursive;
+}
+.heading h1 {
+  font-size: 50px;
+}
+.main {
+  padding: 3rem 0rem;
+}
+#textBox {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.myFormInput {
+  width: 95%;
+}
+#textBoxWrapper {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+.submittedPage {
+  text-align: center;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0)),
+    url("/../assets/images/black-370118_1280.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.submittedPage h3 {
+  margin-bottom: 3rem;
+}
+/* The Modal (background) */
+#myModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid #888;
+  width: 80%;
+  height: 50%;
+}
+#modalHeader {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+#modalText {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.submittedTextWrapper{
+  padding: 50% 1rem 0rem 1rem;
+  text-align: center;
+}
+.submittedTextWrapper h3{
+  margin-bottom: 3rem;
+}
+.button{
+  background-color: #736535;
+  color: white;
+  text-transform: uppercase;
+}
+@media(min-width: 570px){
+  .submittedTextWrapper{
+    padding: 25% 1rem 0rem 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .main {
+    padding: 5rem 0rem;
+  }
+}
+@media(min-width: 1024px){
+  .submittedTextWrapper{
+    padding: 15% 1rem 0rem 1rem;
+  }
+}

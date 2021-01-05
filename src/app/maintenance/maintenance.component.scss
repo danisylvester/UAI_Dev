@@ -1,0 +1,30 @@
+.bkg {
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0)),
+      url("/../assets/images/black-370118_1280.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box{
+    transform: translateY(35%);
+    padding: 1rem;
+}
+.textWrapper{
+    color: #eee;
+}
+.logo{
+    margin-bottom: 1rem;
+    width: 250px;
+}
+#header{
+    padding-bottom: 1rem;
+}
+@media(min-width: 768px){
+    .logo{
+        width: 421px;
+    }
+}

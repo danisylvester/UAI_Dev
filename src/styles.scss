@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+@import '~@angular/material/theming';
+@include mat-core();
+
+$my-primary: mat-palette($mat-gray, 900);
+$my-accent: mat-palette($mat-gray, 900);
+
+$my-theme: mat-light-theme($my-primary, $my-accent);
+
+@include angular-material-theme($my-theme);
+html, body { 
+  scroll-behavior: smooth;
+}
+body { 
+  font-family: 'Markazi Text', serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+  /* Boostrap override to get rid of right nav spacing */
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  } /*End bootstrap override*/
+
+  .font{
+    font-family:"Goldman", cursive;
+  }
+
+  .font-gold{
+    color: #736535;
+  }

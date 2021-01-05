@@ -1,0 +1,77 @@
+
+.navbar {
+    background-color: transparent;
+    transition: background-color 500ms linear;
+    font-family: 'Goldman', cursive;
+  }
+  .navbar.scrolled {
+    background-color: black !important;
+    opacity: 0.9;
+    transition: background-color 500ms linear;
+  }
+  .nav-right {
+    margin: 0 0 0 auto;
+  }
+  .nav-link {
+    color: #DCBB67;
+  }
+  .nav-item a {
+    color: #DCBB67;
+  }
+  .dropdown-menu {
+    background-color: black;
+  }
+  .dropdown-menu a {
+    color: #DCBB67;
+  }
+  .collapsing {
+    position: relative;
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.35s ease;
+  }
+  .mobile-service {
+    display: none;
+  }
+  .mobile-serve {
+    display: none;
+  }
+  #brand{
+    margin-left: 1rem;
+    color: #DCBB67;
+    font-size: 25px;
+    display: none
+  }
+  #phoneBrand{
+    margin-left: 1rem;
+    color: #DCBB67;
+    font-size: 25px;
+  }
+
+  /*Nav mobile animations*/
+  @media (max-width: 767px) {
+    .navbar {
+      background-color: black;
+      max-height: 10%;
+      padding-right: 0%;
+    }
+    .nav {
+      height: auto;
+      width: 50%;
+      padding-left: 1rem;
+    
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.5s ease-in;
+      font-size: large;
+    }
+    .navbar-toggler {
+      margin-right: 1rem;
+    }
+    .nav-item {
+      margin-top: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+  }
+  

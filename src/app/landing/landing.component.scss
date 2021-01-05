@@ -1,0 +1,79 @@
+.landing-bkg {
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0)),
+    url("/../assets/images/black-370118_1280.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.right-side {
+  display: none;
+}
+.leftSide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#logoImg {
+  width: 225px;
+}
+.leftSide i {
+  margin: 1rem 0rem;
+  font-size: 75px;
+  color: #dcbb67;
+  width: 100%;
+}
+#scrollBtn:hover{
+  cursor: pointer;
+}
+
+/*Tablet View*/
+@media (min-width: 768px) {
+  .leftSide {
+    height: 100vh;
+    float: left;
+    width: 40%;
+  }
+  #logoImg {
+    width: 250px;
+  }
+  .right-side {
+    display: block;
+    padding: 0;
+    height: 100vh;
+    float: right;
+    width: 60%;
+    background-image: url("/../assets/images/AU_Tower.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+/*Laptop View*/
+@media (min-width: 1024px) {
+  .leftSide {
+    height: 100%;
+    width: 40%;
+    float: left;
+  }
+  #logoImg {
+    width: 300px;
+  }
+}
+@media (min-width: 1600px) {
+  .right-side {
+    background-image: url("/../assets/images/AU_Tower.jpg");
+    width: 70%;
+  }
+  .leftSide {
+    width: 30%;
+  }
+  #logoImg {
+    width: 400px;
+  }
+}
